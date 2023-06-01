@@ -6,34 +6,24 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Zhiyu Ning
+title: Master's Student in New York University
+email: nzy1019@gmail.com
+phone: +1 917 834 5968
+website: https://zhiyuning.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username:  zhiyuning
+linkedin_username: zhiyu-ning-entro
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,9 +38,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name is Zhiyu and I'm currently a Master student in New York University. I obtained my Bachelor's degree in Computer Science at University of California,Santa Barbara.
+  I love Tech / Coding / Gaming
+  Feel free to contract me!
 
 content:
   - title: Projects # Title for the section
@@ -69,48 +59,64 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Logitech
+        sub_title: Software Development Intern & Automation Test Engineer Intern
+        caption: Aug 2021 – May 2022
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Tech stack: Appium, Robotframework, Java, Linux development.
+          
+        description: | 
+            • Built automation testing framework based on the self-designed proposal (Appium with Robot framework). Delivered investigation 
+            plans and reports on competitive products including meeting devices, monitors, and office hardware.
+
+            • Cooperated with the product team to meet the product development requirement on device drivers (Linux kernel, Java); Brough creative 
+            ideas that promote better UI/UX design in the product design.
+
+            • Improve bash scripts for CI/CD integration; boosted the whole execution efficiency.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+        title: New York University
+        caption: Sep 2022 - May 2024
+        sub_title: Ms Computer Engineering
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+
+          I thouroughly enjoyed my time In New York University and learnt a lot about engineering.
+
+      - layout: left
+        title: University of California, Santa Barbara
+        caption: Oct 2017 - Jun 2021 
         sub_title: BSc Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Best of my four years in UC Santa barbara
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at UCSB I learnt most of my key skills such as teamwork and working independently. 
+          I thouroughly enjoyed my time as university student.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I obatin Dean's Honor in Engineering for 3 quarters: Spring 2020, Fall 2020, and Winter 2021
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in software engineering, some of my other interests and hobbies are:
+      - Running
+      - Video Gaming
+      - 
+      - 
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
